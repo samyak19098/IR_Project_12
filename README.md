@@ -4,10 +4,6 @@ This project is part of Information Retrieval - Winter 2022 course.
 
 <hr/>
 
-![istock-1294303237-cryptocurrency-investment-financial-22-jpg v2](https://user-images.githubusercontent.com/55681990/165565778-bee0df44-e02c-41eb-a51c-7336284a8760.jpg)
-
-<hr/>
-
 # Project Description
 
 Cryptocurrency is a form of digital currency using cryptographic techniques in a decentralized system for secure peer-to-peer transactions. It is gaining much popularity over traditional methods of payments because it facilitates a very fast, easy and secure way of transactions. However, it is very volatile and is influenced by a range of factors, with social media being a major one. Thus, with over four billion active users on social media, we need to understand its influence on the crypto market and how it can lead to fluctuations in the values of these cryptocurrencies. We captured sentiments of text in the tweets to analyse the effect of tweet sentiments on the price of the cryptocurrency and then incorporated user-meta data to conclude the fluctuation. We combine and use all the features to then predict the price of these cryptocurrencies using some regression based models and an LSTM based deep learning model.
