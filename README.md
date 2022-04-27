@@ -8,18 +8,18 @@ We captured sentiments of text in the tweets to analyse the effect of tweet sent
 
 # Dataset
 
-We captured the twitter data using tweepy API and cryptocurrency data using CryptoComapare API.
+We captured the twitter data using tweepy API and cryptocurrency data using CryptoComapare API. Code for this is in the data_collection directory.
 Google Drive Link for pickle files and dataset: https://drive.google.com/drive/folders/1aHgbSDKVDgXVxJEgrgeahkiRb4j6pd-T?usp=sharing
 
 # Pre-Processing
 
-Preprocessing was done on various aspects of the tweets to create a plain text & clean dataset. Then the dataset of crypto and tweets was combined for further time series analysis.
+Preprocessing was done on various aspects of the tweets to create a plain text & clean dataset. Then the dataset of crypto and tweets was combined for further time series analysis. Code for this along with EDA is in the Preprocess_data directory
 
 # Sentiment Analysis
-We did Sentiment analysis as NLP task to categorise the opinions in the given text. Further, we fine tuned a previous sentiment analysis model to improve sentiment results.
+We did Sentiment analysis as NLP task to categorise the opinions in the given text. Further, we fine tuned a previous sentiment analysis model to improve sentiment results. Code for this is in the Analysis directory.
 
 # Models
-We used Regressor models and then LSTM model to analysis the crypto data using the sentiments generated for tweets data along with tweet and related user metadata.
+We used Regressor models and then LSTM model to analysis the crypto data using the sentiments generated for tweets data along with tweet and related user metadata. Code for this is in the Analysis directory.
 
 ![model_architecture](https://user-images.githubusercontent.com/64920972/165535784-7760b9af-3014-4b3c-9146-2ea0cd6b8b97.jpeg)
 
