@@ -4,7 +4,7 @@ This project is part of Information Retrieval - Winter 2022 course.
 
 # Project Description
 
-We captured sentiments of text in the tweets to analyse the effect of tweet sentiments on the price of the cryptocurrency and then incorporated user-meta data to conclude the fluctuation.
+We captured sentiments of text in the tweets to analyse the effect of tweet sentiments on the price of the cryptocurrency and then incorporated user-meta data to conclude the fluctuation. We combine and use all the features to then predict the price of these cryptocurrencies.
 
 # Dataset
 
@@ -19,7 +19,7 @@ Preprocessing was done on various aspects of the tweets to create a plain text &
 We did Sentiment analysis as NLP task to categorise the opinions in the given text. Further, we fine tuned a previous sentiment analysis model to improve sentiment results.
 
 # Models
-We used Regressor models and then LSTM model to analysis the crypto data using the sentiments generated for tweets data.
+We used Regressor models and then LSTM model to analysis the crypto data using the sentiments generated for tweets data along with tweet and related user metadata.
 
 ![model_architecture](https://user-images.githubusercontent.com/64920972/165535784-7760b9af-3014-4b3c-9146-2ea0cd6b8b97.jpeg)
 
